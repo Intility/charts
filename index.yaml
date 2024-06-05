@@ -2,8 +2,17 @@ apiVersion: v1
 entries:
   flow:
   - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2024-06-05T16:22:03.864053+02:00"
+    description: Helm Chart for Intility Flow Operator.
+    digest: f00d7631cdd945a08f7bbcd880e1f7af9ae947cd353adc57849d4a76d31325ff
+    name: flow
+    urls:
+    - https://intility.github.io/charts/flow-1.2.0.tgz
+    version: 1.2.0
+  - apiVersion: v2
     appVersion: 0.1.1
-    created: "2024-06-05T15:55:08.275701+02:00"
+    created: "2024-06-05T16:22:03.863421+02:00"
     description: Helm Chart for Intility Flow Operator.
     digest: e5bde1379fc01fa507918bb3a45d9114b73d03fb88138e3f041bdc3237e7d765
     name: flow
@@ -12,7 +21,7 @@ entries:
     version: 1.1.1
   - apiVersion: v2
     appVersion: 0.1.1
-    created: "2024-06-05T15:55:08.275049+02:00"
+    created: "2024-06-05T16:22:03.858458+02:00"
     description: Helm Chart for Intility Flow Operator.
     digest: cb51d8913311d0d76163da75642aa71ed9f23990e0f8600c6bed8c2016a3b3ea
     name: flow
@@ -21,11 +30,11 @@ entries:
     version: 1.1.0
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2024-06-05T15:55:08.27444+02:00"
+    created: "2024-06-05T16:22:03.851662+02:00"
     description: Helm Chart for Intility Flow Operator.
     digest: 3bad07b8f27b7dd35beda0c59edfacbbdc9059ae1001a91f87a53099cd0a0764
     name: flow
     urls:
     - https://intility.github.io/charts/flow-1.0.0.tgz
     version: 1.0.0
-generated: "2024-06-05T15:55:08.273685+02:00"
+generated: "2024-06-05T16:22:03.839861+02:00"
