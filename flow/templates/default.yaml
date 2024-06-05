@@ -3166,7 +3166,7 @@ spec:
         - --leader-elect
         command:
         - /manager
-        image: gitlab-registry.intility.com/developer-infrastructure/platform-2.0/intility-operators/flow:latest
+        image: {{ .Values.image.repository }}:{{ .Values.image.tag }}
         livenessProbe:
           httpGet:
             path: /healthz

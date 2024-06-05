@@ -1,0 +1,4 @@
+# values.yaml
+image:
+  repository: gitlab-registry.intility.com/developer-infrastructure/platform-2.0/intility-operators/flow
+  tag: latest
