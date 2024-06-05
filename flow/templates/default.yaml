@@ -3166,7 +3166,7 @@ spec:
         - --leader-elect
         command:
         - /manager
-        image: {{ .Values.image.repository }}:{{ .Values.image.tag }}
+        image: {{ .Values.image.repository }}:{{ .Chart.AppVersion }}
         livenessProbe:
           httpGet:
             path: /healthz
