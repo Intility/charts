@@ -3192,6 +3192,11 @@ spec:
           capabilities:
             drop:
             - ALL
+        env:
+        {{- range .Values.env }}
+          - name: {{ .name }}
+            value: {{ .value }}
+        {{- end }}
       securityContext:
         runAsNonRoot: true
       serviceAccountName: flow-controller-manager

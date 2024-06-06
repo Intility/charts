@@ -2,3 +2,7 @@
 image:
   repository: ghcr.io/intility/flow
   tag: latest@sha256:c10448a0b83dd2922befb93fc40f1b45f3fb81155d747716227a131637ae97df
+
+env:
+  - name: OTEL_SERVICE_NAME
+    value: flow
