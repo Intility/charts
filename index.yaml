@@ -3,56 +3,11 @@ entries:
   flow:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2024-06-06T17:00:48.701028+02:00"
+    created: "2024-06-08T13:09:27.804164+02:00"
     description: Helm Chart for Intility Flow Operator.
-    digest: d94f4faa023eb10bf622f1fda6f3389868caaa6b11917aeac94cf63badf029e1
+    digest: 82f1dd0e4c82c9f778810bfe368a34ceb62e52d21dbe4a39e914eb2a116231ed
     name: flow
     urls:
-    - https://intility.github.io/charts/flow-1.3.1.tgz
-    version: 1.3.1
-  - apiVersion: v2
-    appVersion: 1.0.0
-    created: "2024-06-06T17:00:48.700479+02:00"
-    description: Helm Chart for Intility Flow Operator.
-    digest: 0708ccc09228663cf2b8b2b20714646e8bbc83584a58410aca1664e25dcf2828
-    name: flow
-    urls:
-    - https://intility.github.io/charts/flow-1.3.0.tgz
-    version: 1.3.0
-  - apiVersion: v2
-    appVersion: 1.0.0
-    created: "2024-06-06T17:00:48.695446+02:00"
-    description: Helm Chart for Intility Flow Operator.
-    digest: f00d7631cdd945a08f7bbcd880e1f7af9ae947cd353adc57849d4a76d31325ff
-    name: flow
-    urls:
-    - https://intility.github.io/charts/flow-1.2.0.tgz
-    version: 1.2.0
-  - apiVersion: v2
-    appVersion: 0.1.1
-    created: "2024-06-06T17:00:48.690634+02:00"
-    description: Helm Chart for Intility Flow Operator.
-    digest: e5bde1379fc01fa507918bb3a45d9114b73d03fb88138e3f041bdc3237e7d765
-    name: flow
-    urls:
-    - https://intility.github.io/charts/flow-1.1.1.tgz
-    version: 1.1.1
-  - apiVersion: v2
-    appVersion: 0.1.1
-    created: "2024-06-06T17:00:48.68406+02:00"
-    description: Helm Chart for Intility Flow Operator.
-    digest: cb51d8913311d0d76163da75642aa71ed9f23990e0f8600c6bed8c2016a3b3ea
-    name: flow
-    urls:
-    - https://intility.github.io/charts/flow-1.1.0.tgz
-    version: 1.1.0
-  - apiVersion: v2
-    appVersion: 0.1.0
-    created: "2024-06-06T17:00:48.678674+02:00"
-    description: Helm Chart for Intility Flow Operator.
-    digest: 3bad07b8f27b7dd35beda0c59edfacbbdc9059ae1001a91f87a53099cd0a0764
-    name: flow
-    urls:
-    - https://intility.github.io/charts/flow-1.0.0.tgz
-    version: 1.0.0
-generated: "2024-06-06T17:00:48.672598+02:00"
+    - https://intility.github.io/charts/flow-1.4.0.tgz
+    version: 1.4.0
+generated: "2024-06-08T13:09:27.803695+02:00"
