@@ -1,7 +1,7 @@
 # values.yaml
 image:
   repository: ghcr.io/intility/flow
-  tag: latest@sha256:c10448a0b83dd2922befb93fc40f1b45f3fb81155d747716227a131637ae97df
+  tag: latest@sha256:f1629c544559c27b8906603215eb0753adfcc7e0c8ef0e14baf229ba14a54af1
 
 env:
   - name: OTEL_SERVICE_NAME
