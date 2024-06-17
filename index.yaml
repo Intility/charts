@@ -9,7 +9,7 @@ entries:
     name: cilium-olm
     type: application
     urls:
-    - https://intility.github.io/charts/cilium-olm-1.15.1.tgz/cilium-olm-1.15.1.tgz
+  - https://intility.github.io/charts/cilium-olm-1.15.1.tgz
     version: 1.15.1
   flow:
   - apiVersion: v2
@@ -19,6 +19,6 @@ entries:
     digest: 82f1dd0e4c82c9f778810bfe368a34ceb62e52d21dbe4a39e914eb2a116231ed
     name: flow
     urls:
-    - https://intility.github.io/charts/cilium-olm-1.15.1.tgz/flow-1.4.0.tgz
+    - https://intility.github.io/charts/flow-1.4.0.tgz
     version: 1.4.0
 generated: "2024-06-17T15:14:08.830103+02:00"
