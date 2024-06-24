@@ -3,7 +3,7 @@ entries:
   cilium-olm:
   - apiVersion: v2
     appVersion: 1.15.1
-    created: "2024-06-24T12:06:08.711266+02:00"
+    created: "2024-06-24T12:11:32.339417+02:00"
     description: A Helm chart for deploying cilium-olm
     digest: 25365a81dbb7ea4dda41fb1de5d21125386f538ebd97a69d6907cd417bbd338f
     name: cilium-olm
@@ -14,7 +14,7 @@ entries:
   flow:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2024-06-24T12:06:08.712714+02:00"
+    created: "2024-06-24T12:11:32.339857+02:00"
     description: Helm Chart for Intility Flow Operator.
     digest: 82f1dd0e4c82c9f778810bfe368a34ceb62e52d21dbe4a39e914eb2a116231ed
     name: flow
@@ -24,11 +24,11 @@ entries:
   nmstate:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2024-06-24T12:06:08.713252+02:00"
+    created: "2024-06-24T12:11:32.340422+02:00"
     description: Helm Chart for NMState Operator.
-    digest: 242dc619fcbe3b12114d8f0d43d31032ca646ffa2a60b8b19fd3d7bb721f060a
+    digest: f33df6c10949bc1303882348a6c3d29b857fedf204643a7d4c14d7664dd907ca
     name: nmstate
     urls:
-    - https://intility.github.io/charts/nmstate-1.0.0.tgz
-    version: 1.0.0
-generated: "2024-06-24T12:06:08.710274+02:00"
+    - https://intility.github.io/charts/nmstate-1.0.1.tgz
+    version: 1.0.1
+generated: "2024-06-24T12:11:32.339093+02:00"
