@@ -364,7 +364,7 @@ spec:
             - --leader-elect
             - --health-probe-bind-address=:8081
           command:
-            - /manager
+            - /ko-app/cmd
           image: "{{ .Values.image.repository }}:{{ .Chart.AppVersion }}@{{ .Values.image.digest }}"
           livenessProbe:
             httpGet:
