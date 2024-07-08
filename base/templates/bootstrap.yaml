@@ -1,6 +1,0 @@
-apiVersion: management.intility.io/v1
-kind: Bootstrap
-metadata:
-  name: default
-spec:
-  nmstate: {{ .Values.nmstate }}

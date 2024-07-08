@@ -1,5 +1,3 @@
 image:
   repository: ghcr.io/skoglab/base-operator
   digest: sha256:42deeaac3cfd2a6b0356acf0c27e7f3e7668f34a22c976fa4fe157b7766c6fef
-
-nmstate: true
