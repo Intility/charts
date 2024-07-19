@@ -613,8 +613,7 @@ spec:
       - args:
         - --leader-elect
         - --health-probe-bind-address=:8081
-        command:
-        - /manager
+        command: {{ .Values.command }}
         image: "{{ .Values.image.repository }}:{{ .Chart.AppVersion }}@{{ .Values.image.digest }}"
         livenessProbe:
           httpGet:

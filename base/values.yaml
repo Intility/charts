@@ -1,3 +1,5 @@
 image:
   repository: ghcr.io/intility/base-operator
   digest: sha256:7e413b9794505e2b22ca4e8c2ba80ad0bc94db01b862dbba8a27a19c6d83a2cf
+
+command: ["/ko-app/cmd"]
