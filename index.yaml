@@ -3,7 +3,7 @@ entries:
   base:
   - apiVersion: v2
     appVersion: v1.3.0
-    created: "2024-09-17T17:31:26.229232+09:00"
+    created: "2024-10-09T17:30:45.395423+09:00"
     description: Intility Base Operator.
     digest: fc459c2453e7299976536e365725b287a7906414085360a3ee0ceb88ddecaa32
     name: base
@@ -76,7 +76,17 @@ entries:
   cilium-olm:
   - apiVersion: v2
     appVersion: 1.15.1
-    created: "2024-09-17T17:31:26.234716+09:00"
+    created: "2024-10-09T17:30:45.401073+09:00"
+    description: Helm chart for deploying cilium-olm
+    digest: 789b2da367a083838b89a1ef5704502986716d30e4fb51c26f2ddecc8e42fd99
+    name: cilium-olm
+    type: application
+    urls:
+    - https://intility.github.io/charts/cilium-olm-3.0.0.tgz
+    version: 3.0.0
+  - apiVersion: v2
+    appVersion: 1.15.1
+    created: "2024-10-09T17:30:45.40064+09:00"
     description: Helm chart for deploying cilium-olm
     digest: e974157005f544fa63c12eb0cf2b22d17a6ae1d7d1d316521ec4b163dff27b30
     name: cilium-olm
@@ -86,7 +96,7 @@ entries:
     version: 2.0.0
   - apiVersion: v2
     appVersion: 1.15.1
-    created: "2024-09-17T17:31:26.234114+09:00"
+    created: "2024-10-09T17:30:45.397994+09:00"
     description: A Helm chart for deploying cilium-olm
     digest: 25365a81dbb7ea4dda41fb1de5d21125386f538ebd97a69d6907cd417bbd338f
     name: cilium-olm
@@ -97,7 +107,7 @@ entries:
   flow:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2024-09-17T17:31:26.240822+09:00"
+    created: "2024-10-09T17:30:45.404066+09:00"
     description: Helm Chart for Intility Flow Operator.
     digest: 82f1dd0e4c82c9f778810bfe368a34ceb62e52d21dbe4a39e914eb2a116231ed
     name: flow
@@ -107,11 +117,11 @@ entries:
   nmstate:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2024-09-17T17:31:26.246288+09:00"
+    created: "2024-10-09T17:30:45.40592+09:00"
     description: Helm Chart for NMState Operator.
     digest: f33df6c10949bc1303882348a6c3d29b857fedf204643a7d4c14d7664dd907ca
     name: nmstate
     urls:
     - https://intility.github.io/charts/nmstate-1.0.1.tgz
     version: 1.0.1
-generated: "2024-09-17T17:31:26.214279+09:00"
+generated: "2024-10-09T17:30:45.393215+09:00"
